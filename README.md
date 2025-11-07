@@ -227,29 +227,6 @@ This command runs:
 
 ---
 
-## Folder Structure
-
-```
-forestseg-als/
-├─ data/                     # input ALS data
-├─ output/                   # results
-├─ src/
-│  ├─ voxelization.py
-│  ├─ clustering.py
-│  ├─ traversing.py
-│  ├─ individualization.py
-│  ├─ volume_estimation.py
-│  └─ utils/
-├─ notebooks/                # Jupyter notebooks for testing
-├─ docs/
-│  ├─ lidar360_comparison.md
-│  └─ method_flowchart.png
-├─ requirements.txt
-└─ README.md
-```
-
----
-
 ## Future Development
 
 * Integration with **LiDAR360 SDK / API** for streamlined data exchange.
